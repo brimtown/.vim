@@ -3,11 +3,18 @@
 
     git clone https://github.com/zephyr-dev/vim-config.git ~/.vim
     ~/.vim/bin/install
+    cd ~/.vim/bundle/ctrlp-cmatcher
+    ./install.sh
 
 # Updating
 Fetch the latest version of vim-config and install all the new bundles by running:
 
     ~/.vim/bin/update
+
+# Making sure fuzzy finding with Ctrl-P works
+
+    cd ~/.vim/bundle/ctrlp-cmatcher
+    ./install.sh
 
 # Upgrading from an old vim-config
 
@@ -87,6 +94,7 @@ lets you view and cycle through your previous copy and paste registers on the fl
     * It converts between camelCase and snake_case.  Use `cr` followed 's' for snake_case, 'm' for MixedCase, 'c' for camelCase, or 'u' for UPPER_CASE (these work within the current word and don't take a motion).
 * [vim-qargs](https://github.com/nelstrom/vim-qargs) ([stack overflow](http://stackoverflow.com/questions/5686206/search-replace-using-quickfix-list-in-vim/5686810#5686810)) is kind of like Cdo.
 * [ctrlp](https://github.com/kien/ctrlp.vim) is a fuzzy file finder invoked by hitting Ctrl-P in normal mode and typing some part of the file name you'd like to open.  This config also has `,f` mapped to the same function.
+* [ctrlp-cmatcher](https://github.com/JazzCore/ctrlp-cmatcher/) is a sane matching algorithm for Ctrl-P that is not terribly slow and does not fall over, useless when your monorail grows to the appropriate size.
 
 ## Navigation
 * [nerdtree](https://github.com/scrooloose/nerdtree) puts a directory tree on the left side of the screen.  Press `\` to open it at your project root, or `Shift-\` to open it with the current file selected.  You can press `m` to move, delete, or create files.  Press `?` inside the tree to get more help.
