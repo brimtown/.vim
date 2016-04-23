@@ -123,6 +123,8 @@ Plugin 'Blackrush/vim-gocode'
 Plugin 'rosstimson/scala-vim-support'
 Plugin 'guns/vim-clojure-static'
 Plugin 'chrisbra/csv.vim'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'editorconfig-vim'
 
 "
 " Development Tool Integration
@@ -155,3 +157,5 @@ endif
 
 au BufRead,BufNewFile *.hamlc set ft=haml
 
+set exrc
+set secure
