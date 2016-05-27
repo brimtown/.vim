@@ -1,7 +1,7 @@
 # To Install
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
-    git clone https://github.com/joeletizia/vim-config.git ~/.vim
+    git clone https://github.com/joeletizia/vim-config-1.git ~/.vim
     ~/.vim/bin/install
     cd ~/.vim/bundle/ctrlp-cmatcher
     ./install.sh
