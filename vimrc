@@ -34,16 +34,13 @@ Plugin 'gmarik/vundle'
 "
 " Colorschemes
 "
-Plugin 'tpope/vim-vividchalk'
 Plugin 'chriskempson/base16-vim'
 Plugin 'molokai'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'wgibbs/vim-irblack'
-Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'candycode.vim'
-Plugin 'Color-Sampler-Pack'
-Plugin 'flazz/vim-colorschemes'
-
+Plugin 'chrishunt/color-schemes'
+Plugin 'vim-airline/vim-airline-themes'
 "
 " Rails
 "
@@ -68,7 +65,7 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'sjl/gundo.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'scrooloose/syntastic'
-Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline'
 Plugin 'ervandew/supertab'
 Plugin 'mgamba/j-split'
 Plugin 'matt-royal/diffthese'
