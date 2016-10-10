@@ -36,6 +36,7 @@ Plugin 'gmarik/vundle'
 "
 Plugin 'chriskempson/base16-vim'
 Plugin 'molokai'
+Plugin 'ajh17/Spacegray.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'wgibbs/vim-irblack'
 Plugin 'candycode.vim'
