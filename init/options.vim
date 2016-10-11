@@ -1,6 +1,6 @@
 scriptencoding utf-8
 
-set guifont=Menlo:h14
+set guifont=Inconsolata-g:h12
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
@@ -10,6 +10,7 @@ set visualbell                  " Suppress audio/visual error bell
 set notimeout                   " No command timeout
 set ttimeout                    " Add back a timeout for terminal vim
 set ttimeoutlen=100             " Keep the timeout very short
+set updatetime=10
 
 set showcmd                     " Show typed command prefixes while waiting for operator
 set mouse=a                     " Use mouse support in XTerm/iTerm.
@@ -49,6 +50,8 @@ set autoread                    " No prompt for file changes outside Vim
 set swapfile                    " Keep swapfiles
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
+
+let g:gitgutter_sign_column_always = 1 " Always have gitgutter displayed
 
 set hls                         " search with highlights by default
 
